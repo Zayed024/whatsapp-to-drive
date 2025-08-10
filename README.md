@@ -63,7 +63,7 @@ This command starts n8n and creates a public tunnel URL (e.g., `https://your-uni
 4. Activate the workflow
 
 ## Evaluation Hints
-
+- Did not add many specific error messages to send to the user keeping in mind twilio credits and rate limits for free tier
 - **Workflow Clarity**: The workflow uses a modular Switch node to route commands, making it clear and easy to extend for new commands
 - **Error Handling & User Feedback**: The workflow provides user-friendly error messages on WhatsApp for failed commands, ensuring a good user experience
 - **AI Integration**: The AI summarization branch demonstrates an elegant use of a large language model to provide useful information from document content
